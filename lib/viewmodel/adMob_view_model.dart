@@ -12,11 +12,11 @@ class AdMobViewModel extends GetxController{
 
   @override
   void onInit() {
-    // homePageViewInitBannerAd();
-    // newsDetailPageViewInitAd();
-    // breakingNewsPageInitAd();
-    // categoryNewsPageInitAd();
-    // searchNewsPageInitAd();
+    homePageViewInitBannerAd();
+    newsDetailPageViewInitAd();
+    breakingNewsPageInitAd();
+    categoryNewsPageInitAd();
+    searchNewsPageInitAd();
     super.onInit();
   }
 

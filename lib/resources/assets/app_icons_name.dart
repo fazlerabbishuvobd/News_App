@@ -7,4 +7,5 @@ class AppIconsName{
   static const String science = '$basePath/science.png';
   static const String sports = '$basePath/sports.png';
   static const String technology = '$basePath/technology.png';
+  static const String splashScreenIcon = 'assets/icons/splash_screen/appIcon.png';
 }

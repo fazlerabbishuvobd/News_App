@@ -1,7 +1,5 @@
 import 'package:english_news_app/viewmodel/theme_view_model.dart';
-import 'package:english_news_app/views/screens/bottom_navbar/bottom_navigation_bar.dart';
-import 'package:english_news_app/views/screens/search_page/search_page_view.dart';
-import 'package:english_news_app/views/widgets/loading_effect.dart';
+import 'package:english_news_app/views/screens/splash_screen/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -30,7 +28,7 @@ class MyApp extends StatelessWidget {
           brightness: Brightness.dark,
         ),
         themeMode: themeController.themeMode.value,
-        home: const BottomNavigationBarPage(),
+        home: const SplashScreen(),
       );
     });
   }
